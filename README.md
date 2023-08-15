@@ -1,8 +1,45 @@
-# React + Vite
+# Gigih Mid-Term Project - Tokopedia Play Clone (Front-end)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Play is a streaming platform that can be accessed through the Tokopedia application. Users can enjoy a variety of interesting videos, including live shopping with special promos, cooking shows, creations, and sports, which will be broadcast live or rebroadcast. Users can also directly buy the products shown on Tokopedia Play.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Client:** React, vite, tailwind, axios
+
+## Bonus Features
+
+- Real-time data for the comment list
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/alfito234/gigih-final-project-client.git
+```
+
+Go to the project directory
+
+```bash
+  cd gigih-final-project-client
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Environment Variables
+
+You will need to add the following environment variables to your .env file
+
+```bash
+  VITE_API_URL=<your_backend_api_url>
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
